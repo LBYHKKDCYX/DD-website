@@ -14,7 +14,7 @@ const projects = [
   {
     name: 'ISFP 云际模拟飞行连飞平台',
     desc: 'Interstellar Simulation Flight Platform，为模拟飞行爱好者打造的线上连飞平台，连接全球飞友一同翱翔蓝天。',
-    icon: '/logos/isfp.png',
+    icon: import.meta.env.BASE_URL + 'logos/isfp.png',
     tags: ['模拟飞行', '连飞平台', 'Vue'],
     url: 'https://www.flyisfp.com',
     qq: 'QQ群 644614465',
@@ -22,7 +22,7 @@ const projects = [
   {
     name: 'QuanQuan Network',
     desc: '一个Minecraft小游戏服务器，为玩家提供轻松有趣的多人游戏体验，和小伙伴们一起快乐玩耍。',
-    icon: '/logos/quanquan-network.png',
+    icon: import.meta.env.BASE_URL + 'logos/quanquan-network.png',
     tags: ['Minecraft', '小游戏', '服务器'],
     url: 'https://mc.flyisfp.com',
     qq: 'QQ群 435624385',
