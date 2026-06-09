@@ -1,6 +1,6 @@
-# QuanQuan 的个人网站
+# DD 的个人网站
 
-初二全栈开发者 QuanQuan 的个人主页，Vue 3 + Vite 构建。
+初二全栈开发者 DD 的个人主页，Vue 3 + Vite 构建。
 
 ## 技术栈
 
@@ -43,3 +43,6 @@ public/
 ## 许可证
 
 MIT
+
+## 致谢
+本项目基于[quanquan-website](https://github.com/DamnQuan/quanquan-website.git)修改而来的。

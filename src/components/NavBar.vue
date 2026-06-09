@@ -1,6 +1,6 @@
 <template>
   <nav class="nav" :class="{ scrolled }">
-    <span class="nav-brand">QuanQuan</span>
+    <span class="nav-brand">DD</span>
     <div class="nav-links">
       <a v-for="item in items" :key="item.id" :href="'#' + item.id" v-text="item.label" />
     </div>

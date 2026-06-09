@@ -12,20 +12,16 @@ import ProjectCard from './ProjectCard.vue'
 
 const projects = [
   {
-    name: 'ISFP 云际模拟飞行连飞平台',
-    desc: 'Interstellar Simulation Flight Platform，为模拟飞行爱好者打造的线上连飞平台，连接全球飞友一同翱翔蓝天。',
-    icon: import.meta.env.BASE_URL + 'logos/isfp.png',
-    tags: ['模拟飞行', '连飞平台', 'Vue'],
-    url: 'https://www.flyisfp.com',
-    qq: 'QQ群 644614465',
+    name: '飞行助手',
+    desc: '一个ICAO 机场代码查询 & METAR 气象报文实时查询和翻译的小工具，基于 Flask + Vue 3 构建',
+    tags: ['METAR', 'ICAO', 'Vue', 'Python', 'Flask'],
+    url: 'https://github.com/LBYHKKDCYX/Flight-Assistant',
   },
   {
-    name: 'QuanQuan Network',
-    desc: '一个Minecraft小游戏服务器，为玩家提供轻松有趣的多人游戏体验，和小伙伴们一起快乐玩耍。',
-    icon: import.meta.env.BASE_URL + 'logos/quanquan-network.png',
-    tags: ['Minecraft', '小游戏', '服务器'],
-    url: 'https://mc.flyisfp.com',
-    qq: 'QQ群 435624385',
+    name: '图形化网页开发工具',
+    desc: '一款运行在浏览器中的图形化 Web 开发 IDE，支持 HTML、CSS、JavaScript 等前端技术的开发。',
+    tags: ['Web', '开发', 'CSS', 'JavaScript', 'Vue', 'TypeScript'],
+    url: 'https://github.com/LBYHKKDCYX/Graphical-Web-Development-Tools.git',
   },
 ]
 </script>

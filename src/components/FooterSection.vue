@@ -1,9 +1,9 @@
 <template>
   <footer class="footer">
-    <p>&copy; {{ year }} QuanQuan</p>
-    <p class="qq">QQ：255674717</p>
+    <p>&copy; {{ year }} DD</p>
+    <p class="qq">QQ：3689395508</p>
     <div class="links">
-      <a href="https://qm.qq.com/cgi-bin/qm/qr?k=255674717" target="_blank" rel="noopener">联系我</a>
+      <a href="https://qm.qq.com/cgi-bin/qm/qr?k=36893955508" target="_blank" rel="noopener">联系我</a>
     </div>
   </footer>
 </template>

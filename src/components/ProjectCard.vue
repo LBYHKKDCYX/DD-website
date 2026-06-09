@@ -1,14 +1,12 @@
 <template>
   <div class="card">
-    <img class="card-icon" :src="project.icon" :alt="project.name + ' logo'" />
     <h3 v-text="project.name" />
     <p class="card-desc" v-text="project.desc" />
     <div class="card-tags">
       <span v-for="t in project.tags" :key="t" v-text="t" />
     </div>
     <div class="card-links">
-      <a v-if="project.url" :href="project.url" target="_blank" rel="noopener">🔗 官网</a>
-      <span v-if="project.qq" class="qq" v-text="'🐧 ' + project.qq" />
+      <a v-if="project.url" :href="project.url" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>
 </template>
@@ -31,13 +29,6 @@ defineProps({
 .card:hover {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
   transform: translateY(-2px);
-}
-
-.card-icon {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  margin-bottom: 12px;
 }
 
 h3 {
@@ -85,8 +76,4 @@ h3 {
   opacity: 0.7;
 }
 
-.qq {
-  color: #999;
-  font-size: 0.82rem;
-}
 </style>

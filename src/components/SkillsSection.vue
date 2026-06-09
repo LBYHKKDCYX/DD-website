@@ -9,8 +9,7 @@
 
 <script setup>
 const skills = [
-  'Vue.js', 'JavaScript', 'HTML & CSS', 'Node.js',
-  'Minecraft 插件开发', 'Linux', 'Git', 'Python', 'Go',
+  'Vue.js', 'JavaScript', 'HTML & CSS', 'Git', 'Python'
 ]
 </script>
 
